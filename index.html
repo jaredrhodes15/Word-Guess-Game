@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Hangman Homework 3</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Sigmar+One|Special+Elite" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="jumbotron text-center">
+			<h1>Song Guessing Game!
+				<br>
+				<small>Guess That Song!</small>
+			</h1>
+		</div>
+
+		<div class="row center-block match-my-cols">
+			<div class="col-xs-12 col-md-8 text-center left">
+				<h2 id="letsPlay">Press a button to get begin!</h2>
+				<h3>Current name:</h3>
+				<div id="currentWord"></div>
+				<br>
+				<div class="row">
+						<div class="col-xs-12 col-md-6">
+								<h3>Letters Guessed:</h3>
+								<div id="lettersGuessed">--</div>
+							</div>
+					<div class="col-xs-12 col-md-6">
+						<h3>Guesses Left:</h3>
+						<div id="guessesLeft">--</div>
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-md-6">
+						<h3>Completed Guesses:</h3>
+						<div id="correct">0</div>
+					</div>
+					<div class="col-xs-12 col-md-6">
+						<h3>Failed Guesses:</h3>
+						<div id="incorrect">0</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-xs-12 col-md-4 right">
+				<img class="center-block" src="assets/images/guessthatsong.jpg" alt="Guess That Song!" width="100%" height="100%">
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
